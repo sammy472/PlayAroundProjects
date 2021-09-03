@@ -1,0 +1,15 @@
+
+.first{
+	display: grid;
+	background-color: black;
+	height: 200px;
+	width: 400px;
+	grid-template-columns: 1fr 1fr;
+	vertical-align: center;
+	align-self: center;
+	grid-gap:1em;
+}
+.first>div{
+	background-color:blue;
+	align-self: center;
+}

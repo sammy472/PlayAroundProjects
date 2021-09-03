@@ -1,0 +1,145 @@
+.navbar{
+	background-color: lightblue !important;
+	
+}
+.main-home{
+	display: flex;
+	/*align-items: center;*/
+	justify-content: space-around;
+	width: auto;
+	margin: 30px;
+	padding: 20px;
+}
+.subdiv2,.subdiv1{
+	display:flex;
+	flex-direction: column;
+	margin: 10px;
+	width: auto;
+	align-items: center;
+	vertical-align: top;
+}
+
+
+
+.news-in-brief{
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	padding: 10px;
+	margin: 10px;
+}
+.button{
+	padding: 3px;
+	background-color: transparent;
+	margin: 5px;
+	border:green solid 1px;
+	width: 30%;
+	align-self: center;
+	vertical-align: baseline;
+	border-radius: 30px;
+	color: green;
+
+}
+.button:hover{
+	color: white;
+	background-color: green;
+}
+
+.image{
+	padding: 5px;
+	margin:10px;
+	transition-property: all;
+}
+.head{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.footer{
+	text-align: center;
+	padding:20px 20px 3px 20px;
+	background-color: lightblue;
+}
+.contact-dm{
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	background-color: lightblue;
+	justify-content: space-around;
+	padding: 50px;
+}
+.table{
+	padding: 10px;
+	margin-top: 5px;
+	border:none;
+	text-align: left;
+	vertical-align: middle;
+}
+.social{
+    font-size: 40px;
+    
+}
+
+.input{
+	padding: 14px;
+	margin:0px 12px 0px 12px;
+	width: 300px;
+	border:none;
+	border-bottom:2px solid green; 
+}
+.textarea{
+	padding: 14px;
+	margin:12px;
+	width: 200px;
+	border:none;
+}
+
+
+@media screen and (max-width: 786px){
+	.contact-dm{
+	display: block;
+	align-self: center;
+	background-color: lightblue;
+	justify-content: space-around;
+	padding: 50px;
+}
+   .main-home{
+   	display: block;
+   	width: 500px;
+
+   }
+   .image{
+    width: 300px;
+    height: 200px;
+    margin:5px;
+   }
+   .news-in-brief{
+	display: inline-block;
+	width: auto;
+	padding: 5px;
+	margin: 5px;
+}
+
+ @media screen and (max-width: 440px){
+ 	.image{
+    width: 200px;
+    height: 100px;
+    margin:5px;
+   }
+ }
+
+}
+.heading{
+	text-align: center;
+	text-transform: uppercase;
+	align-self:center;
+	vertical-align: middle;
+	margin-top: 40px;
+}
+.news-in-brief a{
+	color: green;
+	text-decoration: none;
+}
+.news-in-brief a:hover{
+	color: white;
+}

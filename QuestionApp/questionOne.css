@@ -1,0 +1,79 @@
+p{
+	font-style: ;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+.question-div{
+	max-width: 800px;
+	margin: auto;
+	padding: 40px 10px 10px 10px;
+	box-sizing: border-box;
+	height: 400px;
+	background-color: rgb(123,231,232);
+
+}
+.next,.previous,.score{
+	color: white;
+	width: 10%;
+	height:20%;
+	background-color:blue;
+	font-weight: bold;
+	font-size: 20px;
+	margin:10px;
+	margin: 5px;
+	padding: 12px;
+	border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+
+}
+.next:hover,.previous:hover,.score:hover{
+	background-color: green;
+}
+#same{
+	max-width: 900px;
+	margin:auto;
+	padding: 40px 10px 10px 10px;
+	box-sizing: border-box;
+	height: 200px;
+	background-color: rgb(123,231,232);
+}
+label{
+	margin:10px 10px 30px 10px;
+	font-style: ;
+	font-weight: bold;
+	font-size: 25px;
+	color: black;
+
+}
+.btn{
+	margin:40px;
+	padding:10px;
+}
+#question{
+	color: black;
+}
+
+#myBar{
+	background-color:#4CAF50;
+	width:10px;
+	height:30px;
+	position: absolute;
+}
+#myProgressive{
+	max-width: 800px;
+	margin: auto;
+	height:30px;
+	position: relative;
+	background-color:#ddd;
+}
+#Retake,#Retry,#Refresh,#Solution{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
