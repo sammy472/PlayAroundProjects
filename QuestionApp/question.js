@@ -2,9 +2,7 @@ const navSlide = () =>{
     const bg=document.querySelector(".burger");
     const nav=document.querySelector(".navlinks");
     const navlinks=document.querySelectorAll("li");
-    
-   
-    bg.addEventListener("click",()=>{
+     bg.addEventListener("click",()=>{
     //toggle
     nav.classList.toggle("nav-active");
     //animate
@@ -14,14 +12,10 @@ const navSlide = () =>{
         }else{
             links.style.animation=`navLinkFade 0.5s ease forwards ${index/5+1.5}s`;
         };
-    });
-        
+    });     
     //burger animation
     bg.classList.toggle("toggle");
 });
-    
-
-    
 }
 navSlide();
 
